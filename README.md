@@ -17,7 +17,9 @@ Start all three threads with start().
 Run and check the output on screen. 
 
 Change the beginning with start() to run(). How does the output change? Why?
+
 RTA// 
+
 Entre el metodo start() y run() el output si cambia 
 
 En la implementacion del start() se evidencia que este metodo no es conviente utilizarlo en varios debido aque el output es dado intercaladamente, en cambio con el metodo run() este es conveniente debido a que este finaliza el proceso para darle paso al siguiente hilo.
