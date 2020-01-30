@@ -31,8 +31,8 @@ En la implementacion del start() se evidencia que este metodo no es conviente ut
 # Part I
 
 RTA//
-![1.1] (https://github.com/jchirivi97/ARWS_lab2_BBP-Formula/blob/master/imagenes/1.1.JPG)
+![1.1] (https://raw.githubusercontent.com/jchirivi97/ARWS_lab2_BBP-Formula/blob/master/imagenes/1.1.JPG)
 
-! [1.1.2] (https://github.com/jchirivi97/ARWS_lab2_BBP-Formula/blob/master/imagenes/1.1.2.JPG)
+! [1.1.2] (https://raw.githubusercontent.com/jchirivi97/ARWS_lab2_BBP-Formula/blob/master/imagenes/1.1.2.JPG)
 
 Se evidencia que  el  proceso utiliza el 9 % del procesador 
