@@ -57,16 +57,20 @@ public class PiDigits extends Thread {
     
     public static byte[] getDigits(int start,int count,int n){
     	ArrayList <Thread> thr =  new ArrayList<>();
+    	byte[] arreglo = null;
+    	ArrayList <Threads> thrs = new ArrayList<>();
+    	
     	for (int i = start; i <= count; i += n){
 			int e = Math.min(i + n,count);
 			Threads thread = new Threads (i,e);
 			Thread th = new Thread (thread);
 			thr.add(th);
+			thrs.add(thread);
+			
 		}
     	for (int i = 0 ;i < thr.size();i++) {
-    		
     		try {
-    			thr.get(i).run();
+    			thr.get(i).run();    			
 				thr.get(i).join();
 			} catch (InterruptedException e) {
 				e.printStackTrace();
@@ -74,9 +78,36 @@ public class PiDigits extends Thread {
     		   		
     	}
     	
+    	for (int i=0; i < thrs.size(); i++) {
+    		thrs.get(i).run();
+    		if (i == 0) {
+    			arreglo = thrs.get(i).getDat();
+    		}
+    		else {
+    			arreglo = concatenar(arreglo, thrs.get(i).getDat() );
+    		}
+    		
+    	}   			
+    	 	
     	
-    	return null;
+    	return arreglo;
     }
+    
+    public static byte[] concatenar(byte[] arreglo1, byte[] arreglo2 ) {
+    	byte[] bytes = new byte [arreglo1.length + arreglo2.length];
+    	int i = 0;
+    	for (i = 0; i < arreglo1.length; i++) {
+    		bytes[i] = arreglo1[i];
+    	}
+    	for (int j = 0; j < arreglo2.length; j++) {
+    		
+    		bytes[i] = arreglo2[j];
+    		j++;
+    	}
+    	return bytes;
+    	
+    }
+    
     
     private static double sum(int m, int n) {
         double sum = 0;
