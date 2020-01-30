@@ -40,6 +40,8 @@ public class PrimeFinderThread extends Thread{
 		return primes;
 	}
 	
+
+	
 	
 	
 	
