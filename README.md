@@ -24,3 +24,15 @@ Entre el metodo start() y run() el output si cambia
 
 En la implementacion del start() se evidencia que este metodo no es conviente utilizarlo en varios debido aque el output es dado intercaladamente, en cambio con el metodo run() este es conveniente debido a que este finaliza el proceso para darle paso al siguiente hilo.
 
+
+
+# # #Dogs Race case 
+
+# Part I
+
+RTA//
+![1.1] (https://github.com/jchirivi97/ARWS_lab2_BBP-Formula/blob/master/imagenes/1.1.JPG)
+
+! [1.1.2] (https://github.com/jchirivi97/ARWS_lab2_BBP-Formula/blob/master/imagenes/1.1.2.JPG)
+
+Se evidencia que  el  proceso utiliza el 9 % del procesador 
