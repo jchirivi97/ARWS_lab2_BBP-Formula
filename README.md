@@ -36,6 +36,7 @@ RTA//
 
 ![1 1 2](https://user-images.githubusercontent.com/48265107/73475307-15cd8a00-435e-11ea-9de9-ddf58e595047.jpg)
 
-Se evidencia que  el  proceso utiliza el 9 % del procesador 
+Se evidencia que  el  proceso utiliza el 9 % del procesador, con el uso de 2 nucleos
+
 
 
