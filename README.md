@@ -38,3 +38,5 @@ RTA//
 ! [1.1.2] (https://raw.githubusercontent.com/jchirivi97/ARWS_lab2_BBP-Formula/blob/master/imagenes/1.1.2.JPG)
 
 Se evidencia que  el  proceso utiliza el 9 % del procesador 
+
+![1.1] (https://raw.githubusercontent.com/jchirivi97/ARWS_lab2_BBP-Formula/master/imagenes/1.1.JPG)
