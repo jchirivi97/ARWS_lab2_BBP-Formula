@@ -26,17 +26,16 @@ En la implementacion del start() se evidencia que este metodo no es conviente ut
 
 
 
-# # #Dogs Race case 
+# Dogs Race case 
 
 # Part I
 
 RTA//
-![1.1] (https://raw.githubusercontent.com/jchirivi97/ARWS_lab2_BBP-Formula/master/imagenes/1.1.JPG)
+![1 1](https://user-images.githubusercontent.com/48265107/73475223-f0408080-435d-11ea-848c-b225b724e62e.jpg)
 
 
-
-! [1.1.2] (https://raw.githubusercontent.com/jchirivi97/ARWS_lab2_BBP-Formula/blob/master/imagenes/1.1.2.JPG)
+![1 1 2](https://user-images.githubusercontent.com/48265107/73475307-15cd8a00-435e-11ea-9de9-ddf58e595047.jpg)
 
 Se evidencia que  el  proceso utiliza el 9 % del procesador 
 
-![1.1] (https://raw.githubusercontent.com/jchirivi97/ARWS_lab2_BBP-Formula/master/imagenes/1.1.JPG)
+
